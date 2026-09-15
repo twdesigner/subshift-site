@@ -126,7 +126,14 @@
       }
       body {
         margin: 0;
-        background: var(--bg);
+        background: var(--bg)
+          radial-gradient(
+            1200px 700px at 50% 0%,
+            rgba(29, 78, 216, 0.28) 0%,
+            rgba(7, 9, 14, 0) 100%
+          )
+          no-repeat;
+        background-attachment: absolute;
         color: var(--text);
         font-family:
           "Manrope",
@@ -182,8 +189,8 @@
         position: sticky;
         top: 0;
         z-index: 50;
-        background: rgba(7, 9, 14, 0.85);
-        backdrop-filter: blur(10px);
+        background: rgba(7, 9, 14, 0.7);
+        backdrop-filter: blur(12px);
         border-bottom: 1px solid var(--panel-border);
       }
       .nav {
@@ -837,11 +844,11 @@
           <span class="pill blue">SRT TO WEBVTT</span>
           <span class="pill green">100% LOCAL &amp; SECURE</span>
         </div>
-        <h1>Instant subtitle conversion.<br />Zero server uploads.</h1>
+        <h1>Instant Subtitle Conversion.<br />Zero Server Uploads.</h1>
         <p class="sub">
           Convert standard SubRip (.srt) files to HTML5 WebVTT (.vtt) format
-          with pixel-perfect timestamp accuracy. Everything runs locally inside
-          your browser for maximum privacy.
+          with pixel-perfect timestamp accuracy. Process everything locally
+          inside your browser for maximum privacy.
         </p>
         <div class="premiere-badge">
           <span class="premiere-icon" aria-hidden="true">Pr</span>
