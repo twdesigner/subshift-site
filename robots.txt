@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.subshift.app/sitemap.xml
+Sitemap: https://subshift.io/sitemap.xml
